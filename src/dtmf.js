@@ -65,7 +65,7 @@ var DTMF = (function (undefined) {
         low: wave(freq.low)
       });
       _tones.push(toneIndex.toString());
-      return toneIndex;
+      return toneIndex.toString();
     }
   }
   
