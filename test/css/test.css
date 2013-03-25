@@ -8,9 +8,13 @@ body {
   height: 400px;
 }
 
+.no-keypad {
+  width: 100px;
+}
+
 .key {
-  width: 33.3%;
-  height: 25%;
+  width: 100px;
+  height: 100px;
   float: left;
   text-align: center;
   font-size: 300%;

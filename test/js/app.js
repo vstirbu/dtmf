@@ -24,6 +24,8 @@ ko.bindingHandlers.key = {
             element.classList.remove('error');
           }
         }, false);
+        
+        element.id = valueAccessor();
     }
 };
 
