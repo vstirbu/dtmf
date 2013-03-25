@@ -1,0 +1,12 @@
+{
+  "name": "dtmf",
+  "author": "Vlad Stirbu <vlad.stirbu@ieee.org>",
+  "description": "Simple library for DTMF tones using Web Audio API",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-shell": "~0.2.1",
+    "grunt-contrib-concat": "~0.1.3"
+  }
+}
