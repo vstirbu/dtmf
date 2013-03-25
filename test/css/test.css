@@ -1,0 +1,31 @@
+body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.keypad {
+  width: 300px;
+  height: 400px;
+}
+
+.key {
+  width: 33.3%;
+  height: 25%;
+  float: left;
+  text-align: center;
+  font-size: 300%;
+  line-height: 100px;
+}
+
+.pressed {
+  background-color: gray;
+}
+
+.error {
+  background-color: red;
+}
+
+.centered {
+  margin-left:auto;
+  margin-right:auto;
+}
