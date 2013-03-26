@@ -38,7 +38,7 @@ module.exports = function(grunt) {
       },
       src: {
         files: ['src/*.js'],
-        tasks: ['default', 'shell:runSpec']
+        tasks: ['uglify', 'shell:runSpec']
       }
     }
   });
@@ -50,6 +50,7 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('test', ['concat', 'shell:runSpec']);
   
   grunt.event.on('watch', function(action, filepath) {
     grunt.log.writeln(filepath + ' has ' + action);
