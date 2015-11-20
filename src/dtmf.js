@@ -8,7 +8,7 @@ var DTMF = (function (undefined) {
       _tones = []; // array of active tone indices
   
   try {
-    context = new webkitAudioContext();
+    context = new AudioContext();
   }
   catch (e) {
     console.log("Browser does not support Web Audio API");
